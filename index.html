@@ -1,296 +1,410 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	 	<title>Моя тема</title>  
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="favicon.png" />
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/animate.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css"/>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<script src="js/script.js"></script>	
-		<script type="text/javascript" src="js/jquery.snsShare.js"></script>
-		<script type="text/javascript">
-			$(document).ready( function () {
-				$('.share-to').snsShare('', 'http://web-online.hol.es/spacetrip3');
-			});
-		</script>
-		<script src="js/goodshare.js"></script>
-	</head>
-	<body  id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60"> 
-		<nav class="navbar navbar-default navbar-fixed-top">
-		  <div class="container">
-			<div class="navbar-header">
-			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			  </button>
-			  <a class="navbar-brand" href="#myPage">Logo</a>
-			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-			  <ul class="nav navbar-nav navbar-right">
-				<li><a href="#about">О нас</a></li>
-				<li><a href="#services">Услуги</a></li>
-				<li><a href="#portfolio">Портфолио</a></li>
-				<li><a href="#pricing">Цены</a></li>
-				<li><a href="#contact">Контакты</a></li>
-			  </ul>
-			</div>
-		  </div>
-		</nav>
+  <head>
+    <title>Моя тема</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery.snsShare.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".share-to").snsShare("", "http://web-online.hol.es/spacetrip3");
+      });
+    </script>
+    <script src="js/goodshare.js"></script>
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#myPage">Logo</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#portfolio">Портфолио</a></li>
+            <li><a href="#pricing">Цены</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-		<div class="jumbotron text-center">
-			<h1>Космические путешествия</h1>
-			<p>Летайте наяву!</p>
-			 <a href="#" class="btn btn-lg btn-info" role="button">Записаться  в команду!</a>
-		</div>
-		<div class="container-fluid"   id="about">
-		  <div class="row">
-			<div class="col-sm-4  text-center">
-			  <span class="glyphicon glyphicon-leaf logo mainlogo"  id="leaf". ></span>
-			</div>
-			<div class="col-sm-8 animated slideInRight">
-			  <h2>Наши преимущества</h2>
-			  <h4><strong>Наш лозунг: </strong>Возможности без границ</h4>
-			  <p><strong>И еще: </strong>Легко!</p>
-			</div>
-		  </div>
-		</div>
-		<div class="container-fluid text-center slideanim" id="services" >
-		  <h2>Наши услуги</h2>
-		  <h4>Что мы предлагаем</h4>
-		  <br>
-		  <div class="row">
-			<div class="col-sm-4">
-			  <span class="glyphicon glyphicon-time logo-small"></span>
-			  <h4>Минимальное время</h4>
-			  <p>Стремимся к скорости света!</p>
-			</div>
-			<div class="col-sm-4">
-			  <span class="glyphicon glyphicon-briefcase logo-small"></span>
-			  <h4>Обучение</h4>
-			  <p>Научим инопланетным тонкостям</p>
-			</div>
-			<div class="col-sm-4">
-			  <span class="glyphicon glyphicon-lock logo-small"></span>
-			  <h4>Безопасность</h4>
-			  <p>Наш корабль - корабль-сейф!</p>
-			</div>
-			</div>
-			<br><br>
-		  <div class="row">
-			<div class="col-sm-4">
-			  <span class="glyphicon glyphicon-flag logo-small"></span>
-			  <h4>Свободный режим</h4>
-			  <p>Свободные передвижения - в 3D и 4G! </p>
-			</div>
-			<div class="col-sm-4">
-			  <span class="glyphicon glyphicon-certificate logo-small"></span>
-			  <h4>Профессионализм</h4>
-			  <p>Мы умеем!</p>
-			</div>
-			<div class="col-sm-4">
-			  <span class="glyphicon glyphicon-picture logo-small"></span>
-			  <h4>Развлечения</h4>
-			  <p>Интересно все!</p>
-			</div>
-		  </div>
-		</div>
-		<div class="container text-center slideanim" id="portfolio" >
-		  <h2>Портфолио</h2>
-		  <h4>Где мы работаем:</h4>
-		  <div class="row text-center">
-			<div class="col-sm-3">
-			  <div class="thumbnail">
-				<img src="images/Mars.jpg" alt="Марс">
-				<p><strong>Марс</strong></p>
-				<p>Наша миссия на Марсе</p>
-			  </div>
-			</div>
-			<div class="col-sm-3">
-			  <div class="thumbnail">
-				<img src="images/Earth.jpg" alt="Земля">
-				<p><strong>Земля</strong></p>
-				<p>Наша миссия на Земле</p>
-			  </div>
-			</div>
-			<div class="col-sm-3">
-			  <div class="thumbnail">
-				<img src="images/Venus.jpg" alt="Венера">
-				<p><strong>Венера</strong></p>
-				<p>Наша миссия на Венере</p>
-			  </div>
-			</div>
-			<div class="col-sm-3">
-			  <div class="thumbnail">
-				<img src="images/Mercury.jpg" alt="Меркурий">
-				<p><strong>Меркурий</strong></p>
-				<p>Наша миссия на Меркурии</p>
-			  </div>
-			</div>
-		  </div>
-		</div>
-		<div class="container slideanim" id="pricing" >
-		  <div class="text-center">
-			<h2>Наши цены</h2>
-			<h4>Выберите Ваш вариант:</h4>
-		  </div>
-		  <div class="row">
-			<div class="col-sm-3">
-			  <div class="panel panel-default text-center">
-				<div class="panel-heading">
-				  <h1>Марс</h1>
-				</div>
-				<div class="panel-body">
-				  <p>Очень холодно...</p>
-				</div>
-				<div class="panel-footer">
-				  <h3>$10000</h3>
-				  <button class="btn btn-lg">Подать заявку</button>
-				</div>
-			  </div>
-			</div>
-			<div class="col-sm-3">
-			  <div class="panel panel-default text-center">
-				<div class="panel-heading">
-				  <h1>Земля</h1>
-				</div>
-				<div class="panel-body">
-				  <p>В самый раз!</p>
-				</div>
-				<div class="panel-footer">
-				  <h3>$1000</h3>
-				  <button class="btn btn-lg">Подать заявку</button>
-				</div>
-			  </div>
-			</div>
-		   <div class="col-sm-3">
-			  <div class="panel panel-default text-center">
-				<div class="panel-heading">
-				  <h1>Венера</h1>
-				</div>
-				<div class="panel-body">
-				  <p>Жарковато...</p>
-				</div>
-				<div class="panel-footer">
-				  <h3>$20000</h3>
-				  <button class="btn btn-lg">Подать заявку</button>
-				</div>
-			  </div>
-			</div>
-			   <div class="col-sm-3">
-			  <div class="panel panel-default text-center">
-				<div class="panel-heading">
-				  <h1>Меркурий</h1>
-				</div>
-				<div class="panel-body">
-				  <p>Просто невозможно!</p>
-				</div>
-				<div class="panel-footer">
-				  <h3>$100000</h3>
-				  <button class="btn btn-lg">Подать заявку</button>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
-		<div class="container text-center slideanim"  >
-			<h2>Что говорят о нас наши клиенты</h2>
-			<div id="myCarousel" class="carousel slide text-center slideanim" data-ride="carousel">
-			  <!-- Точки-индикаторы -->
-			  <ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-			  </ol>
+    <div class="jumbotron text-center">
+      <h1>Космические путешествия!!!!!</h1>
+      <p>Летайте наяву!</p>
+      <a href="#" class="btn btn-lg btn-info" role="button"
+        >Записаться в команду!</a
+      >
+    </div>
+    <div class="container-fluid" id="about">
+      <div class="row">
+        <div class="col-sm-4 text-center">
+          <span
+            class="glyphicon glyphicon-leaf logo mainlogo"
+            id="leaf"
+            .
+          ></span>
+        </div>
+        <div class="col-sm-8 animated slideInRight">
+          <h2>Наши преимущества</h2>
+          <h4><strong>Наш лозунг: </strong>Возможности без границ</h4>
+          <p><strong>И еще: </strong>Легко!</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid text-center slideanim" id="services">
+      <h2>Наши услуги</h2>
+      <h4>Что мы предлагаем</h4>
+      <br />
+      <div class="row">
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-time logo-small"></span>
+          <h4>Минимальное время</h4>
+          <p>Стремимся к скорости света!</p>
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-briefcase logo-small"></span>
+          <h4>Обучение</h4>
+          <p>Научим инопланетным тонкостям</p>
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-lock logo-small"></span>
+          <h4>Безопасность</h4>
+          <p>Наш корабль - корабль-сейф!</p>
+        </div>
+      </div>
+      <br /><br />
+      <div class="row">
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-flag logo-small"></span>
+          <h4>Свободный режим</h4>
+          <p>Свободные передвижения - в 3D и 4G!</p>
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-certificate logo-small"></span>
+          <h4>Профессионализм</h4>
+          <p>Мы умеем!</p>
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-picture logo-small"></span>
+          <h4>Развлечения</h4>
+          <p>Интересно все!</p>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center slideanim" id="portfolio">
+      <h2>Портфолио</h2>
+      <h4>Где мы работаем:</h4>
+      <div class="row text-center">
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <img src="images/Mars.jpg" alt="Марс" />
+            <p><strong>Марс</strong></p>
+            <p>Наша миссия на Марсе</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <img src="images/Earth.jpg" alt="Земля" />
+            <p><strong>Земля</strong></p>
+            <p>Наша миссия на Земле</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <img src="images/Venus.jpg" alt="Венера" />
+            <p><strong>Венера</strong></p>
+            <p>Наша миссия на Венере</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <img src="images/Mercury.jpg" alt="Меркурий" />
+            <p><strong>Меркурий</strong></p>
+            <p>Наша миссия на Меркурии</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container slideanim" id="pricing">
+      <div class="text-center">
+        <h2>Наши цены</h2>
+        <h4>Выберите Ваш вариант:</h4>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h1>Марс</h1>
+            </div>
+            <div class="panel-body">
+              <p>Очень холодно...</p>
+            </div>
+            <div class="panel-footer">
+              <h3>$10000</h3>
+              <button class="btn btn-lg">Подать заявку</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h1>Земля</h1>
+            </div>
+            <div class="panel-body">
+              <p>В самый раз!</p>
+            </div>
+            <div class="panel-footer">
+              <h3>$1000</h3>
+              <button class="btn btn-lg">Подать заявку</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h1>Венера</h1>
+            </div>
+            <div class="panel-body">
+              <p>Жарковато...</p>
+            </div>
+            <div class="panel-footer">
+              <h3>$20000</h3>
+              <button class="btn btn-lg">Подать заявку</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h1>Меркурий</h1>
+            </div>
+            <div class="panel-body">
+              <p>Просто невозможно!</p>
+            </div>
+            <div class="panel-footer">
+              <h3>$100000</h3>
+              <button class="btn btn-lg">Подать заявку</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center slideanim">
+      <h2>Что говорят о нас наши клиенты</h2>
+      <div
+        id="myCarousel"
+        class="carousel slide text-center slideanim"
+        data-ride="carousel"
+      >
+        <!-- Точки-индикаторы -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-			<!-- Слайды -->
-			  <div class="carousel-inner slideanim" role="listbox" >
-				<div class="item active">
-				 <img src="images/alena.jpg" class="img-circle  center-block" alt="Алена" style="position:relative;top: 25px;"> 
-				<h4>"Я очень довольна результатами Вашей работы!"<br><span style="font-style:normal;">Алена, ученица 9 класса</span></h4>
-				</div>
-				<div class="item">
-				 <img src="images/ilia.jpg" class="img-circle  center-block" alt="Илья" style="position:relative;top: 25px;"> 
-				  <h4>"Вы работаете прекрасно!"<br><span style="font-style:normal;">Илья, ученик 10 класса</span></h4>
-				</div>
-				<div class="item">
-				 <img src="images/nastia.jpg" class="img-circle  center-block" alt="Настя" style="position:relative;top: 25px;"> 
-				  <h4>"Вау!"<br><span style="font-style:normal;">Настя, ученица 11 класса</span></h4>
-				</div>
-			  </div>
+        <!-- Слайды -->
+        <div class="carousel-inner slideanim" role="listbox">
+          <div class="item active">
+            <img
+              src="images/alena.jpg"
+              class="img-circle center-block"
+              alt="Алена"
+              style="position: relative; top: 25px"
+            />
+            <h4>
+              "Я очень довольна результатами Вашей работы!"<br /><span
+                style="font-style: normal"
+                >Алена, ученица 9 класса</span
+              >
+            </h4>
+          </div>
+          <div class="item">
+            <img
+              src="images/ilia.jpg"
+              class="img-circle center-block"
+              alt="Илья"
+              style="position: relative; top: 25px"
+            />
+            <h4>
+              "Вы работаете прекрасно!"<br /><span style="font-style: normal"
+                >Илья, ученик 10 класса</span
+              >
+            </h4>
+          </div>
+          <div class="item">
+            <img
+              src="images/nastia.jpg"
+              class="img-circle center-block"
+              alt="Настя"
+              style="position: relative; top: 25px"
+            />
+            <h4>
+              "Вау!"<br /><span style="font-style: normal"
+                >Настя, ученица 11 класса</span
+              >
+            </h4>
+          </div>
+        </div>
 
-		  <!-- Левая и правая стрелки -->
-			  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Следующая</span>
-			  </a>
-			  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Предыдущая</span>
-			  </a>
-			</div>
-		</div>
-		<div id="contact" class="container bg-grey slideanim animated mov_slideInRight" >
-		  <h2 class="text-center">Контакты</h2>
-			<div class="row ">
-			  <div class=" col-sm-12 col-md-6 col-md-offset-2">
-				  <p><span class="glyphicon glyphicon-map-marker"></span>Адрес</p>
-				 <p><span class="glyphicon glyphicon-earphone"></span> +38(057)5151515</p>
-				 <p><span class="glyphicon glyphicon-envelope"></span> email@ex.com</p>
-			  </div>
-			  <div class="col-sm-12 col-md-4 text-center">			
-				<div class="col-sm-12 col-md-4 text-center">			
-				  <a href="#" class="btn btn-lg btn-primary " role="button">Записаться в команду!</a>
-				</div>
-			  </div>
-			</div>
-		</div>
+        <!-- Левая и правая стрелки -->
+        <a
+          class="left carousel-control"
+          href="#myCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-left"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Следующая</span>
+        </a>
+        <a
+          class="right carousel-control"
+          href="#myCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-right"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Предыдущая</span>
+        </a>
+      </div>
+    </div>
+    <div
+      id="contact"
+      class="container bg-grey slideanim animated mov_slideInRight"
+    >
+      <h2 class="text-center">Контакты</h2>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-md-offset-2">
+          <p><span class="glyphicon glyphicon-map-marker"></span>Адрес</p>
+          <p>
+            <span class="glyphicon glyphicon-earphone"></span> +38(057)5151515
+          </p>
+          <p><span class="glyphicon glyphicon-envelope"></span> email@ex.com</p>
+        </div>
+        <div class="col-sm-12 col-md-4 text-center">
+          <div class="col-sm-12 col-md-4 text-center">
+            <a href="#" class="btn btn-lg btn-primary" role="button"
+              >Записаться в команду!</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="container-fluid footer slideanim">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h3>Мой заголовок</h3>
+          <div
+            id="googleMap"
+            style="
+              height: 400px;
+              width: 100%;
+              position: relative;
+              overflow: hidden;
+            "
+          >
+            <!-- Add Google Maps -->
+            <iframe
+              style="border: 0"
+              src="https://www.google.com/maps/embed/v1/place?q=%D0%9A%D0%98%D0%A2%2C%20%D0%A3%D0%A7%D0%95%D0%91.%20%D0%A6%D0%95%D0%9D%D0%A2%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%AC%D0%AE%D0%A2&amp;key=AIzaSyBisR5FgsAfB5ygV3jiyfeJMag2xDtSgS0&amp;language=ru"
+              allowfullscreen=""
+              frameborder="0"
+              width="100%"
+              height="600"
+            ></iframe>
+          </div>
+          <div class="container">
+            <button class="share-to btn" data-sns="facebook">
+              <i
+                class="center fa fa-facebook-square fa-3x"
+                style="font-size: 40px; color: #338bd4"
+              ></i>
+            </button>
+            <button class="share-to btn" data-sns="twitter">
+              <i
+                class="center fa fa-twitter-square fa-3x"
+                style="font-size: 40px; color: #338bd4"
+              ></i>
+            </button>
+            <button class="share-to btn" data-sns="google+">
+              <i
+                class="center fa fa-google-plus-square fa-3x"
+                style="font-size: 40px; color: #338bd4"
+              ></i>
+            </button>
+          </div>
+          <div class="container center">
+            <div class="goodshare-color">
+              <a href="#" class="goodshare" data-type="fb"
+                ><span
+                  class="fa fa-facebook fa-3x btn-social btn-facebook"
+                  style="padding: 5px 8px; display: inline-block"
+                ></span
+              ></a>
+              <a href="#" class="goodshare" data-type="tw"
+                ><span
+                  class="fa fa-twitter fa-3x btn-social btn-twitter"
+                  style="padding: 5px 8px; display: inline-block"
+                ></span
+              ></a>
+              <a href="#" class="goodshare" data-type="gp"
+                ><span
+                  class="fa fa-google fa-3x btn-social btn-google"
+                  style="padding: 5px 8px; display: inline-block"
+                ></span
+              ></a>
+              <a href="#" class="goodshare" data-type="li"
+                ><span
+                  class="fa fa-linkedin fa-3x btn-social btn-linkedin"
+                  style="padding: 5px 8px; display: inline-block"
+                ></span
+              ></a>
+              <a href="#" class="goodshare" data-type="pt"
+                ><span
+                  class="fa fa-pinterest fa-3x btn-social btn-pinterest"
+                  style="padding: 5px 8px; display: inline-block"
+                ></span
+              ></a>
+            </div>
+          </div>
 
-		<div class="container-fluid footer slideanim">
-		  <div class="row">
-			 <div class="col-sm-12 text-center">
-				<h3>Мой заголовок</h3>
-				<div id="googleMap" style="height: 400px; width: 100%; position: relative; overflow: hidden;">
-					<!-- Add Google Maps -->				
-					<iframe style="border:0" src="https://www.google.com/maps/embed/v1/place?q=%D0%9A%D0%98%D0%A2%2C%20%D0%A3%D0%A7%D0%95%D0%91.%20%D0%A6%D0%95%D0%9D%D0%A2%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%AC%D0%AE%D0%A2&amp;key=AIzaSyBisR5FgsAfB5ygV3jiyfeJMag2xDtSgS0&amp;language=ru" allowfullscreen="" frameborder="0" width="100%" height="600"></iframe>
-				</div>
-				<div class="container">
-					<button class="share-to btn" data-sns="facebook">
-						<i class="center fa fa-facebook-square fa-3x " style="font-size:40px;color:#338BD4;"></i>
-					</button>
-					<button class="share-to btn" data-sns="twitter">
-						<i class="center fa fa-twitter-square fa-3x " style="font-size:40px;color:#338BD4;"></i>
-					</button>
-					<button class="share-to btn" data-sns="google+">
-						<i class="center fa fa-google-plus-square fa-3x " style="font-size:40px;color:#338BD4;"></i>
-					</button>    
-				</div>
-				<div class="container center">
-				  <div class="goodshare-color">
-					 <a href="#" class="goodshare" data-type="fb" ><span class="fa fa-facebook fa-3x btn-social btn-facebook" style="padding:5px 8px;display:inline-block;"></span></a>
-					 <a href="#" class="goodshare" data-type="tw"><span class="fa fa-twitter fa-3x btn-social btn-twitter" style="padding:5px 8px;display:inline-block;"></span></a>                             
-					 <a href="#" class="goodshare" data-type="gp" ><span class="fa fa-google fa-3x btn-social  btn-google" style="padding:5px 8px;display:inline-block;"></span></a>
-					 <a href="#" class="goodshare" data-type="li" ><span class="fa fa-linkedin fa-3x btn-social btn-linkedin" style="padding:5px 8px;display:inline-block;"></span></a>
-					 <a href="#" class="goodshare" data-type="pt" ><span class="fa fa-pinterest fa-3x btn-social btn-pinterest" style="padding:5px 8px;display:inline-block;"></span></a>					
-				  </div>
-				</div>				
+          <h4>2019</h4>
+        </div>
+      </div>
+    </div>
 
-				<h4>2019</h4>
-			 </div>
-		  </div>
-		</div>
-		
-
-		<a href="#myPage" title="To Top" id="totop">
-			<span class="glyphicon glyphicon-chevron-up"></span>
-		</a>
-
-
-	</body>
+    <a href="#myPage" title="To Top" id="totop">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+  </body>
 </html>
